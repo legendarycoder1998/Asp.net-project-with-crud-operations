@@ -6,7 +6,7 @@ namespace CRUD_project.Models
 {
     public class HomController : Controller
     {
-        MySqlConnection conn = new MySqlConnection("server=localhost;user id=root;password=1998;database=category");
+        MySqlConnection conn = new MySqlConnection("server=localhost;user id=root;port=3307;password=1998;database=category");
         // GET: Hom
 
         public ActionResult Index()
